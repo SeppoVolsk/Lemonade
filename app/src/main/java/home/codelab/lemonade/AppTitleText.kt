@@ -18,7 +18,6 @@ fun AppTitleText() {
         modifier = Modifier
             .background(colorResource(id = R.color.title_background))
             .fillMaxWidth()
-
     ) {
         Text(
             text = stringResource(id = R.string.app_title_text),
